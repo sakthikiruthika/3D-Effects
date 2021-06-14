@@ -1,0 +1,56 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 500px;
+}
+
+#cardwrapper{
+    width:50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    transform-style: preserve-3d;
+    min-height: 80vh;
+    width:25rem;
+    padding:3rem 5rem;
+    box-shadow:0 20px 20px rgb(85, 85, 107,0.2),0px 0px 50px rgb(85, 85, 107,0.2);
+    background:black;
+
+    
+}
+
+.item-img{
+    min-height:35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-img img{
+    width:20 rem;
+    z-index:2;
+}
+
+.item-name{
+    font-size: 20px;
+    color:white;
+    font-weight: lighter;
+}
+
+.item-description{
+    color:white;
+    font-weight: lighter;
+}
+
